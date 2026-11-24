@@ -1,11 +1,11 @@
-importScripts('https://jsdelivr.net');
+importScripts("https://cdn.jsdelivr.net/npm/@live-codes/odin-wasm@0.2.0/dist/odin-wasm.global.js")
 
 let compilerPromise = null
 
 function getCompiler() {
     if (!compilerPromise)
     {
-        compilerPromise = self.odinWasm.createCompiler({
+        compilerPromise = createCompiler({
             baseUrl: new URL('/odin/', location.origin),
         });
     }
