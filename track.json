@@ -3,5 +3,5 @@
     "title": "Odin",
     "language": "odin",
     "exercises": ["hellope.json"],
-    "runtimeWorker": "https://github.com/DarkTerraYT/CodebookOdinTrack/blob/main/worker.js"
+    "runtimeWorker": "worker.js"
 }
