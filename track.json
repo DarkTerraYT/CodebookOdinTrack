@@ -1,4 +1,7 @@
 {
-    "$schema": "./track_schema.json",
-    "title": "Odin"
+    "$schema": "https://raw.githubusercontent.com/SammaWasTaken/Codebook/refs/heads/main/schemas/track.json",
+    "title": "Odin",
+    "language": "odin",
+    "exercises": ["hellope.json"],
+    "runtimeWorker": "https://github.com/DarkTerraYT/CodebookOdinTrack/blob/main/worker.js"
 }

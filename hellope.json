@@ -1,0 +1,7 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SammaWasTaken/Codebook/refs/heads/main/schemas/exercise.json",
+    "result": "Hellope!",
+    "title": "First Odin Program",
+    "text": "Odin is a compiled language similar to C or Zig. It was designed to be a better C (like many other languages).\n\n",
+    "code": "package main\n\nmain :: proc() {\n\n}"
+}
